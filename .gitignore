@@ -102,3 +102,8 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Cordova
+/src-cordova/platforms
+/src-cordova/plugins
+/public/cordova.js
