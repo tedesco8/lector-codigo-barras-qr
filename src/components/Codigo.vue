@@ -49,17 +49,6 @@ export default {
       console.log(await bcrypt.compare(this.barcodeValue, hash));
       this.newBarcodevalue = hash
     },
-    // scan() {
-    //   cordova.plugins.barcodeScanner.scan(
-    //     function(result) {
-    //       console.log(result);
-    //       console.log(result.text);
-    //     },
-    //     function(err) {
-    //       console.log(err);
-    //     }
-    //   );
-    // },
   },
 };
 </script>
