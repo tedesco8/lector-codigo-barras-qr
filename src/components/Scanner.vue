@@ -13,17 +13,17 @@
 export default {
   name: "Codigo",
   methods: {
-    // scan() {
-    //   cordova.plugins.barcodeScanner.scan(
-    //     function(result) {
-    //       console.log(result);
-    //       console.log(result.text);
-    //     },
-    //     function(err) {
-    //       console.log(err);
-    //     }
-    //   );
-    // },
+    scan() {
+      cordova.plugins.barcodeScanner.scan(
+        function(result) {
+          console.log(result);
+          console.log(result.text);
+        },
+        function(err) {
+          console.log(err);
+        }
+      );
+    },
   },
 };
 </script>
